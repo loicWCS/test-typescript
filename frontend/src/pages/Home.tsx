@@ -1,5 +1,6 @@
 import Counter from "@components/Counter";
-import logo from "@assets/logo.svg";
+import logo from "@assets/logo.svg"; // voir tsconfig.json MODULES,baseUrl,paths
+import React from "react";
 
 export default function Home() {
   return (
@@ -10,7 +11,7 @@ export default function Home() {
       <Counter />
 
       <p>
-        Edit <code>App.jsx</code> and save to test HMR updates.
+        Edit <code>App.tsx</code> and save to test HMR updates.
       </p>
       <p>
         <a
